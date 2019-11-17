@@ -1,0 +1,52 @@
+\ProvidesPackage{gtszrcp}
+
+\usepackage[cm]{fullpage}
+\setstocksize{182mm}{128mm}
+\usepackage{enumitem}
+\usepackage[paperwidth=128mm, paperheight=182mm, top=1.5cm, bottom=2.2cm, inner=2cm, outer=2.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{kotex}
+\usepackage[breaklinks=true]{hyperref}
+\hypersetup{colorlinks, citecolor=black, filecolor=black, linkcolor=black, urlcolor=black}
+
+\usepackage{epigraph}
+\setlength\epigraphwidth{1\textwidth}
+
+\makeatletter
+    \newcommand*{\cleartoleftpage}{\clearpage\if@twoside\ifodd\c@page\hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+\makeatletter
+\newcommand*{\cleartorightpage}{\clearpage\if@twoside\ifeven\c@page\hbox{}\newpage\if@twocolumn\hbox{}\newpage\fi\fi\fi}
+\makeatother
+
+%define titlingpage
+\usepackage{titling}
+
+\pretitle{\begin{textbf}}
+\posttitle{\end{textbf},}
+\preauthor{}
+\postauthor{,}
+\predate{}
+\postdate{}
+
+\renewcommand{\contentsname}{차례}
+\maxtocdepth{chapter}
+\renewcommand{\baselinestretch}{1.355}
+\setsecnumdepth{part}
+\setlength{\beforechapskip}{0pt}
+
+\titleformat{\chapter}{\filright}{}{0pt}{\normalfont\large\bfseries}
+\titlespacing*{\chapter}{0pt}{0pt}{2\baselineskip}
+
+\setlength{\parskip}{1em}
+
+\newenvironment{lastnote}{%
+	\clearpage\vspace*{\fill}%
+	\begin{footnotesize}
+}{%
+	\end{footnotesize}
+}
+
+\newenvironment{lyric}{\setlength{\parindent}{0pt}}{}
+\newenvironment{article}{}{}
