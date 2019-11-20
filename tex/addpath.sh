@@ -1,26 +1,26 @@
-_TEXMFHOME=`kpsewhich -var-value=TEXMFHOME`;
-_USERSTYLE_FILE_NAME="gtszrcp.sty";
-_USERSTYLE_FILE_PATH="$PWD/$_USERSTYLE_FILE_NAME";
-_USERSTYLE_TARGET_PATH="$_TEXMFHOME/$_USERSTYLE_FILE_NAME";
+_texmfhome=`kpsewhich -var-value=TEXMFHOME`;
+_userstyle_filename="gtszrcp.sty";
+_userstyle_filepath="$PWD/$_userstyle_filename";
+_userstyle_targetpath="$_texmfhome/$_userstyle_filename";
 
-if [ ! -f "$_USERSTYLE_FILE_PATH" ];
+if [ ! -f "$_userstyle_filepath" ];
 then
-	echo "$_USERSTYLE_FILE_NAME doesn't exits";
+	echo "$_userstyle_filename doesn't exits";
 else
-	if [ ! -d "$_TEXMFHOME" ];
+	if [ ! -d "$_texmfhome" ];
 	then
-		echo "$_TEXMFHOME doesn't exists";
-		echo "CREATE $_TEXMFHOME DIRECTORY";
-		mkdir "$_TEXMFHOME"
+		echo "$_texmfhome doesn't exists";
+		echo "CREATE $_texmfhome DIRECTORY";
+		mkdir "$_texmfhome"
 	else
-		if [ -f "$_USERSTYLE_TARGET_PATH" ];
+		if [ -f "$_userstyle_targetpath" ];
 		then
-			echo "$_USERSTYLE_TARGET_PATH is already exists, remove it";
-			rm "$_USERSTYLE_TARGET_PATH";
+			echo "$_userstyle_targetpath is already exists, remove it";
+			rm "$_userstyle_targetpath";
 		fi;
 	fi;
 
-	ln -s "$_USERSTYLE_FILE_PATH" "$_USERSTYLE_TARGET_PATH";
-	echo "$_USERSTYLE_FILE_NAME added to $_TEXMFHOME";
+	ln -s "$_userstyle_filepath" "$_userstyle_targetpath";
+	echo "$_userstyle_filename added to $_texmfhome";
 fi;
 

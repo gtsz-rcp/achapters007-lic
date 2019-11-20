@@ -5,4 +5,5 @@
 *.out
 *.pdf
 *.synctex.gz
-*.toc
+*.toc*.bcf
+*.run.xml
