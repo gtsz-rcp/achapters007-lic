@@ -1,0 +1,242 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bk:desert2011}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a06401e9cb6de54485e2f19774a04491}{%
+           family={Annonymouse},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Anarchist Library}%
+      }
+      \strng{namehash}{a06401e9cb6de54485e2f19774a04491}
+      \strng{fullhash}{a06401e9cb6de54485e2f19774a04491}
+      \strng{bibnamehash}{a06401e9cb6de54485e2f19774a04491}
+      \strng{authorbibnamehash}{a06401e9cb6de54485e2f19774a04491}
+      \strng{authornamehash}{a06401e9cb6de54485e2f19774a04491}
+      \strng{authorfullhash}{a06401e9cb6de54485e2f19774a04491}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Desert}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://theanarchistlibrary.org/library/anonymous-desert
+      \endverb
+      \verb{url}
+      \verb https://theanarchistlibrary.org/library/anonymous-desert
+      \endverb
+    \endentry
+    \entry{ibk:bruno2008}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=c9a510405dbb25084e682ea202b4f984}{%
+           family={Filippi},
+           familyi={F\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c9a510405dbb25084e682ea202b4f984}
+      \strng{fullhash}{c9a510405dbb25084e682ea202b4f984}
+      \strng{bibnamehash}{c9a510405dbb25084e682ea202b4f984}
+      \strng{authorbibnamehash}{c9a510405dbb25084e682ea202b4f984}
+      \strng{authornamehash}{c9a510405dbb25084e682ea202b4f984}
+      \strng{authorfullhash}{c9a510405dbb25084e682ea202b4f984}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Rebel’s Dark Laughter: The Writings of Bruno Filippi}
+      \field{title}{The Free Art of a Free Spirit}
+      \field{year}{2008}
+    \endentry
+    \entry{ibk:pattrice2006}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=dfa0b72e8f84444934b9bda32f9b6079}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Pattrice},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4c0c5e42dbce0ed53383ff2d9021d8fa}{%
+           family={Steven\bibnamedelima Best},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Anthony\bibnamedelimb J.\bibnamedelimi Nocella\bibnamedelima II},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AK Press}%
+      }
+      \strng{namehash}{dfa0b72e8f84444934b9bda32f9b6079}
+      \strng{fullhash}{dfa0b72e8f84444934b9bda32f9b6079}
+      \strng{bibnamehash}{dfa0b72e8f84444934b9bda32f9b6079}
+      \strng{authorbibnamehash}{dfa0b72e8f84444934b9bda32f9b6079}
+      \strng{authornamehash}{dfa0b72e8f84444934b9bda32f9b6079}
+      \strng{authorfullhash}{dfa0b72e8f84444934b9bda32f9b6079}
+      \strng{editorbibnamehash}{4c0c5e42dbce0ed53383ff2d9021d8fa}
+      \strng{editornamehash}{4c0c5e42dbce0ed53383ff2d9021d8fa}
+      \strng{editorfullhash}{4c0c5e42dbce0ed53383ff2d9021d8fa}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Igniting a Revolution: Voices in Defense of the Earth}
+      \field{title}{Stomping with the elephants: Feminist principles for radical solidarity}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{319\bibrangedash 334}
+      \range{pages}{16}
+    \endentry
+    \entry{atc:enzo1950}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=13f980ab7eead9586a0bbdcb3cfb79c4}{%
+           family={Martucci},
+           familyi={M\bibinitperiod},
+           given={Enzo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13f980ab7eead9586a0bbdcb3cfb79c4}
+      \strng{fullhash}{13f980ab7eead9586a0bbdcb3cfb79c4}
+      \strng{bibnamehash}{13f980ab7eead9586a0bbdcb3cfb79c4}
+      \strng{authorbibnamehash}{13f980ab7eead9586a0bbdcb3cfb79c4}
+      \strng{authornamehash}{13f980ab7eead9586a0bbdcb3cfb79c4}
+      \strng{authorfullhash}{13f980ab7eead9586a0bbdcb3cfb79c4}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{2011년 스테판 말레타(Stephen Marletta)에 의해 이탈리아어에서 영어로 번역되었다.}
+      \field{title}{On Renzo Novatore}
+      \field{year}{1950}
+      \verb{urlraw}
+      \verb https://theanarchistlibrary.org/library/enzo-martucci-on-renzo-novatore
+      \endverb
+      \verb{url}
+      \verb https://theanarchistlibrary.org/library/enzo-martucci-on-renzo-novatore
+      \endverb
+    \endentry
+    \entry{ibk:renzo2012}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=79d502447959342e308d9a994519f663}{%
+           family={Novatore},
+           familyi={N\bibinitperiod},
+           given={Renzo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Ardent Press}%
+      }
+      \strng{namehash}{79d502447959342e308d9a994519f663}
+      \strng{fullhash}{79d502447959342e308d9a994519f663}
+      \strng{bibnamehash}{79d502447959342e308d9a994519f663}
+      \strng{authorbibnamehash}{79d502447959342e308d9a994519f663}
+      \strng{authornamehash}{79d502447959342e308d9a994519f663}
+      \strng{authorfullhash}{79d502447959342e308d9a994519f663}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Novatore: The Collected Writings of Renzo Novatore}
+      \field{note}{1924년 최초로 발행되었다.}
+      \field{title}{Toward the Creative Nothing}
+      \field{year}{2012}
+      \field{dateera}{ce}
+    \endentry
+    \entry{atcl:francesco1910}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=82dbffcd28b5be97e810a096d962d843}{%
+           family={Pratella},
+           familyi={P\bibinitperiod},
+           given={Francesco\bibnamedelima Balilla},
+           giveni={F\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{82dbffcd28b5be97e810a096d962d843}
+      \strng{fullhash}{82dbffcd28b5be97e810a096d962d843}
+      \strng{bibnamehash}{82dbffcd28b5be97e810a096d962d843}
+      \strng{authorbibnamehash}{82dbffcd28b5be97e810a096d962d843}
+      \strng{authornamehash}{82dbffcd28b5be97e810a096d962d843}
+      \strng{authorfullhash}{82dbffcd28b5be97e810a096d962d843}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Manifesto of Futurist Music}
+      \field{year}{1910}
+      \field{dateera}{ce}
+    \endentry
+    \entry{atcl:ap2013}{article}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=37f28ad7bb54fa16abd362b73bca2404}{%
+           family={Press},
+           familyi={P\bibinitperiod},
+           given={Associated},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{37f28ad7bb54fa16abd362b73bca2404}
+      \strng{fullhash}{37f28ad7bb54fa16abd362b73bca2404}
+      \strng{bibnamehash}{37f28ad7bb54fa16abd362b73bca2404}
+      \strng{authorbibnamehash}{37f28ad7bb54fa16abd362b73bca2404}
+      \strng{authornamehash}{37f28ad7bb54fa16abd362b73bca2404}
+      \strng{authorfullhash}{37f28ad7bb54fa16abd362b73bca2404}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Desert News}
+      \field{title}{Elderly ex-con robbed bank in hopes of getting sent back to prison}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.deseret.com/2013/2/13/20448196/elderly-ex-con-robbed-bank-in-hopes-of-getting-sent-back-to-prison
+      \endverb
+      \verb{url}
+      \verb https://www.deseret.com/2013/2/13/20448196/elderly-ex-con-robbed-bank-in-hopes-of-getting-sent-back-to-prison
+      \endverb
+      \warn{\item Entry 'atcl:ap2013' (lic-ko.bib): Invalid format '2013-2-12' of date field 'date' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

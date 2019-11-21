@@ -1,0 +1,17 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'lic-ko.blg'
+[32] biber:315> INFO - === 목 11월 21, 2019, 13:08:00
+[55] Biber.pm:371> INFO - Reading 'lic-ko.bcf'
+[128] Biber.pm:889> INFO - Found 7 citekeys in bib section 0
+[143] Biber.pm:4093> INFO - Processing section 0
+[154] Biber.pm:4254> INFO - Looking for bibtex format file 'lic-ko.bib' for section 0
+[155] bibtex.pm:1512> INFO - LaTeX decoding ...
+[167] bibtex.pm:1329> INFO - Found BibTeX data source 'lic-ko.bib'
+[188] Utils.pm:193> WARN - Entry 'atcl:ap2013' (lic-ko.bib): Invalid format '2013-2-12' of date field 'date' - ignoring
+[223] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[223] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[223] Biber.pm:3921> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[223] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[236] bbl.pm:636> INFO - Writing 'lic-ko.bbl' with encoding 'UTF-8'
+[240] bbl.pm:739> INFO - Output to lic-ko.bbl
+[240] Biber.pm:110> INFO - WARNINGS: 1
